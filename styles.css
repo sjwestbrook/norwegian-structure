@@ -19,7 +19,6 @@ body {
 #products1,
 #artists,
 #products2 {
-  margin: 3% 0;
   padding: 5% 8%;
 }
 #intro,
@@ -64,7 +63,6 @@ body {
 }
 #footer {
   padding: 5%;
-  margin-top: 3%;
 }
 /*  SECTIONS  */
 .section {
