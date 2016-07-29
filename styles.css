@@ -15,7 +15,7 @@
 }
 .unordered-list ul li {
   padding: .2em 0;
-  font-weight: bold;
+  font-size: 1.15em;
 }
 .unordered-list ul li a {
   text-decoration: none;
@@ -80,6 +80,9 @@ footer {
   letter-spacing: .1em;
   text-align: center;
 }
+#artists h2 {
+  font-size: 1.5em;
+}
 #artists .artists-container {
   background-color: #fffbf9;
   padding: 3%;
@@ -93,7 +96,7 @@ footer {
 }
 #artists .artists-container ul li {
   padding: .2em 0;
-  font-weight: bold;
+  font-size: 1.15em;
 }
 #artists .artists-container ul li a {
   text-decoration: none;
@@ -106,6 +109,9 @@ footer {
 footer {
   padding: 5%;
   background-color: #fff6f2;
+}
+footer h2 {
+  font-size: 1.5em;
 }
 footer .partners {
   background-color: #fffbf9;
@@ -120,7 +126,7 @@ footer .partners ul {
 }
 footer .partners ul li {
   padding: .2em 0;
-  font-weight: bold;
+  font-size: 1.15em;
 }
 footer .partners ul li a {
   text-decoration: none;
