@@ -6,7 +6,16 @@
 @grey: rgb(204, 204, 204);
 @white: rgb(255, 255, 255);
 
-
+.links {
+  a {
+    text-decoration: none;
+    font-style: italic;
+    &:hover {
+      color: @vltflesh;
+      background-color: black;
+    }
+  }
+}
 
 // ELEMENTS
 
@@ -32,14 +41,14 @@ html, body {
 
 
 #intro {
+  h1 {
+    font-size: 5em;
+    letter-spacing: .1em;
+   }
   .intro-blurb {
     background-color: @vltflesh;
-    padding: 2% 4%;
+    padding: 2% 5%;
     width: 35%;
-    h1 {
-      font-size: 5em;
-      letter-spacing: .1em;
-    }
     p {
       font-size: 1.5em;
     }
@@ -52,15 +61,14 @@ html, body {
 
 #about {
   background-color: @vltflesh;
-}
-
-a {
-  text-decoration: none;
-  &:hover {
-    color: @vltflesh;
-    background-color: black;
+  .links;
+  h2 {
+    font-size: 2.75em;
+    letter-spacing: .1em;
   }
 }
+
+
 
 
 
