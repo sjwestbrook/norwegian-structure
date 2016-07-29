@@ -1,3 +1,11 @@
+.links a {
+  text-decoration: none;
+  font-style: italic;
+}
+.links a:hover {
+  color: #fffbf9;
+  background-color: black;
+}
 html,
 body {
   margin: 0;
@@ -22,14 +30,14 @@ body {
 #footer {
   background-color: #fff6f2;
 }
-#intro .intro-blurb {
-  background-color: #fffbf9;
-  padding: 2% 4%;
-  width: 35%;
-}
-#intro .intro-blurb h1 {
+#intro h1 {
   font-size: 5em;
   letter-spacing: .1em;
+}
+#intro .intro-blurb {
+  background-color: #fffbf9;
+  padding: 2% 5%;
+  width: 35%;
 }
 #intro .intro-blurb p {
   font-size: 1.5em;
@@ -40,12 +48,17 @@ body {
 #about {
   background-color: #fffbf9;
 }
-a {
+#about a {
   text-decoration: none;
+  font-style: italic;
 }
-a:hover {
+#about a:hover {
   color: #fffbf9;
   background-color: black;
+}
+#about h2 {
+  font-size: 2.75em;
+  letter-spacing: .1em;
 }
 /*  SECTIONS  */
 .section {
