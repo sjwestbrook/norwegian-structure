@@ -9,6 +9,9 @@
 }
 .unordered-list ul {
   list-style-type: none;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
 }
 .unordered-list ul li a {
   text-decoration: none;
@@ -43,6 +46,7 @@ footer {
 #intro h1 {
   font-size: 5em;
   letter-spacing: .1em;
+  text-align: center;
 }
 #intro .intro-blurb {
   background-color: #fffbf9;
@@ -78,6 +82,9 @@ footer {
 }
 #artists .artists-container ul {
   list-style-type: none;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
 }
 #artists .artists-container ul li a {
   text-decoration: none;
@@ -97,6 +104,9 @@ footer .partners {
 }
 footer .partners ul {
   list-style-type: none;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
 }
 footer .partners ul li a {
   text-decoration: none;
