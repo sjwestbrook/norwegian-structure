@@ -1,1 +1,16 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: #373737;
+  font-family: 'Neuton', serif;
+}
+.container {
+  padding: 0 5%;
+}
+#intro,
+#artists,
+#footer {
+  background-color: #fff6f2;
+}
 
