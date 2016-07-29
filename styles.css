@@ -63,6 +63,20 @@ body {
 }
 #footer {
   padding: 5%;
+  background-color: #fff6f2;
+}
+#footer .partners {
+  background-color: #fffbf9;
+  padding: 3%;
+}
+#footer .partners ul li a {
+  text-decoration: none;
+  font-style: italic;
+  color: #373737;
+}
+#footer .partners ul li a:hover {
+  color: #fffbf9;
+  background-color: black;
 }
 /*  SECTIONS  */
 .section {
