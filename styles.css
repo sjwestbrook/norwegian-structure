@@ -14,22 +14,21 @@ body {
   color: #373737;
   font-family: 'Neuton', serif;
 }
-.container {
-  padding: 0 5%;
-}
 #intro,
 #about,
 #products1,
 #artists,
-#products2,
-#footer {
-  margin: 0;
-  padding: 5% 0;
+#products2 {
+  margin: 3% 0;
+  padding: 5% 8%;
 }
 #intro,
 #artists,
 #footer {
   background-color: #fff6f2;
+}
+#intro {
+  margin-top: 0;
 }
 #intro h1 {
   font-size: 5em;
@@ -59,9 +58,13 @@ body {
   background-color: black;
 }
 #about h2 {
-  font-size: 2.75em;
+  font-size: 2.25em;
   letter-spacing: .1em;
   text-align: center;
+}
+#footer {
+  padding: 5%;
+  margin-top: 3%;
 }
 /*  SECTIONS  */
 .section {
