@@ -18,6 +18,26 @@
   }
 }
 
+.unordered-list {
+  ul {
+      list-style-type: none;
+      li {
+    	a {
+	  text-decoration: none;
+	  color: @black;
+	  &:hover {
+	    color: @vltflesh;
+	    background-color: black;
+	  }
+	} 
+      }
+    }
+}
+
+
+
+
+
 // ELEMENTS
 
 html, body {
@@ -71,6 +91,22 @@ html, body {
   }
 }
 
+
+// #products1 {
+  
+// }
+
+
+#artists {
+  .unordered-list;
+}
+
+
+// #products2 {
+	
+// }
+
+
 footer {
   padding: 5%;
   //margin-top: 3%;
@@ -78,19 +114,7 @@ footer {
   .partners {
     background-color: @vltflesh;
     padding: 3%;
-    ul {
-      list-style-type: none;
-      li {
-    	a {
-	  text-decoration: none;
-	  color: @black;
-	  &:hover {
-	    color: @vltflesh;
-	    background-color: black;
-	  }
-	} 
-      }
-    }
+    .unordered-list;
   }
 }
 
