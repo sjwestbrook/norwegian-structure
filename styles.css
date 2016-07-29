@@ -7,6 +7,17 @@
   color: #fffbf9;
   background-color: black;
 }
+.unordered-list ul {
+  list-style-type: none;
+}
+.unordered-list ul li a {
+  text-decoration: none;
+  color: #373737;
+}
+.unordered-list ul li a:hover {
+  color: #fffbf9;
+  background-color: black;
+}
 html,
 body {
   margin: 0;
@@ -60,6 +71,17 @@ footer {
   font-size: 2.25em;
   letter-spacing: .1em;
   text-align: center;
+}
+#artists ul {
+  list-style-type: none;
+}
+#artists ul li a {
+  text-decoration: none;
+  color: #373737;
+}
+#artists ul li a:hover {
+  color: #fffbf9;
+  background-color: black;
 }
 footer {
   padding: 5%;
