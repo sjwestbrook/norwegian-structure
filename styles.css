@@ -1,6 +1,7 @@
 .links a {
   text-decoration: none;
   font-style: italic;
+  color: #373737;
 }
 .links a:hover {
   color: #fffbf9;
@@ -51,6 +52,7 @@ body {
 #about a {
   text-decoration: none;
   font-style: italic;
+  color: #373737;
 }
 #about a:hover {
   color: #fffbf9;
@@ -59,6 +61,7 @@ body {
 #about h2 {
   font-size: 2.75em;
   letter-spacing: .1em;
+  text-align: center;
 }
 /*  SECTIONS  */
 .section {
