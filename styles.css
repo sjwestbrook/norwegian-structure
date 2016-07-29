@@ -69,9 +69,11 @@ body {
   background-color: #fffbf9;
   padding: 3%;
 }
+#footer .partners ul {
+  list-style-type: none;
+}
 #footer .partners ul li a {
   text-decoration: none;
-  font-style: italic;
   color: #373737;
 }
 #footer .partners ul li a:hover {
