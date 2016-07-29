@@ -72,14 +72,18 @@ footer {
   letter-spacing: .1em;
   text-align: center;
 }
-#artists ul {
+#artists .artists-container {
+  background-color: #fffbf9;
+  padding: 3%;
+}
+#artists .artists-container ul {
   list-style-type: none;
 }
-#artists ul li a {
+#artists .artists-container ul li a {
   text-decoration: none;
   color: #373737;
 }
-#artists ul li a:hover {
+#artists .artists-container ul li a:hover {
   color: #fffbf9;
   background-color: black;
 }
