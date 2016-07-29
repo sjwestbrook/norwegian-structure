@@ -13,6 +13,9 @@
   -webkit-columns: 2;
   -moz-columns: 2;
 }
+.unordered-list ul li {
+  padding: .5em 0;
+}
 .unordered-list ul li a {
   text-decoration: none;
   color: #373737;
@@ -87,6 +90,9 @@ footer {
   -webkit-columns: 2;
   -moz-columns: 2;
 }
+#artists .artists-container ul li {
+  padding: .5em 0;
+}
 #artists .artists-container ul li a {
   text-decoration: none;
   color: #373737;
@@ -109,6 +115,9 @@ footer .partners ul {
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
+}
+footer .partners ul li {
+  padding: .5em 0;
 }
 footer .partners ul li a {
   text-decoration: none;
