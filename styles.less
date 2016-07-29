@@ -79,8 +79,16 @@ html, body {
     background-color: @vltflesh;
     padding: 3%;
     ul {
+      list-style-type: none;
       li {
-    	.links; 
+    	a {
+	  text-decoration: none;
+	  color: @black;
+	  &:hover {
+	    color: @vltflesh;
+	    background-color: black;
+	  }
+	} 
       }
     }
   }
