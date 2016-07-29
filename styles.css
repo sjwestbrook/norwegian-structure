@@ -22,6 +22,9 @@ body {
 #footer {
   background-color: #fff6f2;
 }
+#about {
+  background-color: #fffbf9;
+}
 a {
   text-decoration: none;
 }
@@ -40,6 +43,10 @@ a:hover {
   display: block;
   float: left;
   margin: 1% 0 1% 1.6%;
+}
+.col img {
+  width: 90%;
+  margin: 2%;
 }
 .col:first-child {
   margin-left: 0;
