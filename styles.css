@@ -14,7 +14,7 @@
   -moz-columns: 2;
 }
 .unordered-list ul li {
-  padding: .5em 0;
+  padding: .2em 0;
 }
 .unordered-list ul li a {
   text-decoration: none;
@@ -91,7 +91,7 @@ footer {
   -moz-columns: 2;
 }
 #artists .artists-container ul li {
-  padding: .5em 0;
+  padding: .2em 0;
 }
 #artists .artists-container ul li a {
   text-decoration: none;
@@ -117,7 +117,7 @@ footer .partners ul {
   -moz-columns: 2;
 }
 footer .partners ul li {
-  padding: .5em 0;
+  padding: .2em 0;
 }
 footer .partners ul li a {
   text-decoration: none;
