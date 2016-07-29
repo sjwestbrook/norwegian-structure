@@ -79,6 +79,7 @@ footer {
 #artists .artists-container {
   background-color: #fffbf9;
   padding: 3%;
+  width: 50%;
 }
 #artists .artists-container ul {
   list-style-type: none;
@@ -101,6 +102,7 @@ footer {
 footer .partners {
   background-color: #fffbf9;
   padding: 3%;
+  width: 50%;
 }
 footer .partners ul {
   list-style-type: none;
