@@ -23,7 +23,7 @@ body {
 }
 #intro,
 #artists,
-#footer {
+footer {
   background-color: #fff6f2;
 }
 #intro {
@@ -61,22 +61,22 @@ body {
   letter-spacing: .1em;
   text-align: center;
 }
-#footer {
+footer {
   padding: 5%;
   background-color: #fff6f2;
 }
-#footer .partners {
+footer .partners {
   background-color: #fffbf9;
   padding: 3%;
 }
-#footer .partners ul {
+footer .partners ul {
   list-style-type: none;
 }
-#footer .partners ul li a {
+footer .partners ul li a {
   text-decoration: none;
   color: #373737;
 }
-#footer .partners ul li a:hover {
+footer .partners ul li a:hover {
   color: #fffbf9;
   background-color: black;
 }
