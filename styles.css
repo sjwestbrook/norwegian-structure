@@ -22,6 +22,20 @@ body {
 #footer {
   background-color: #fff6f2;
 }
+#intro .intro-blurb {
+  background-color: #fffbf9;
+  padding: 3.5%;
+}
+#intro .intro-blurb h1 {
+  font-size: 5em;
+  letter-spacing: .1em;
+}
+#intro .intro-blurb p {
+  font-size: 1.5em;
+}
+#intro img {
+  width: 45%;
+}
 #about {
   background-color: #fffbf9;
 }
@@ -46,7 +60,7 @@ a:hover {
 }
 .col img {
   width: 90%;
-  margin: 2%;
+  margin: 1.5%;
 }
 .col:first-child {
   margin-left: 0;
