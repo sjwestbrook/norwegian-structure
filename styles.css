@@ -14,7 +14,7 @@
   -moz-columns: 2;
 }
 .unordered-list ul li {
-  padding: .2em 0;
+  padding: .1em 0;
   font-size: 1.15em;
 }
 .unordered-list ul li a {
@@ -47,21 +47,37 @@ footer {
 #intro {
   margin-top: 0;
 }
-#intro h1 {
+#intro .structures {
+  position: relative;
+  top: 15%;
+  left: 25%;
+}
+#intro .structures h1 {
   font-size: 5em;
   letter-spacing: .1em;
   text-align: center;
 }
-#intro .intro-blurb {
+#intro .structures .intro-blurb {
   background-color: #fffbf9;
   padding: 2% 5%;
   width: 35%;
 }
-#intro .intro-blurb p {
+#intro .structures .intro-blurb p {
   font-size: 1.5em;
 }
-#intro img {
+#intro .structures .front-img {
   width: 45%;
+  z-index: 10;
+  position: relative;
+  top: 17%;
+  left: 45%;
+}
+#intro .structures .back-img {
+  width: 45%;
+  z-index: 0;
+  position: relative;
+  top: 20%;
+  right: 25%;
 }
 #about {
   background-color: #fffbf9;
@@ -95,7 +111,7 @@ footer {
   -moz-columns: 2;
 }
 #artists .artists-container ul li {
-  padding: .2em 0;
+  padding: .1em 0;
   font-size: 1.15em;
 }
 #artists .artists-container ul li a {
@@ -125,7 +141,7 @@ footer .partners ul {
   -moz-columns: 2;
 }
 footer .partners ul li {
-  padding: .2em 0;
+  padding: .1em 0;
   font-size: 1.15em;
 }
 footer .partners ul li a {
