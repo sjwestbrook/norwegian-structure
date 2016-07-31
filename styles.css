@@ -47,11 +47,6 @@ footer {
 #intro {
   margin-top: 0;
 }
-#intro .structures {
-  position: relative;
-  top: 15%;
-  left: 25%;
-}
 #intro .structures h1 {
   font-size: 5em;
   letter-spacing: .1em;
@@ -68,16 +63,10 @@ footer {
 #intro .structures .front-img {
   width: 45%;
   z-index: 10;
-  position: relative;
-  top: 17%;
-  left: 45%;
 }
 #intro .structures .back-img {
   width: 45%;
   z-index: 0;
-  position: relative;
-  top: 20%;
-  right: 25%;
 }
 #about {
   background-color: #fffbf9;
